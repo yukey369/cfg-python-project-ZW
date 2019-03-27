@@ -1,0 +1,4 @@
+flask
+requsts
+python-dotenv
+tweepy
