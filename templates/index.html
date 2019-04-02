@@ -1,47 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sightengine demo - Python and Flask</title>
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/app.css') }}">
-</head>
-
-<body>
-<header class="navbar">
-  <form action="/E:\learning material\girls code python study" method="post" enctype="multipart/form-data" >
-      <span class="btn btn-default btn-file">
-        Browse <input type="graph" name="star.jpg">
-      </span>
-
-    <input type="submit" value="Upload your image" class="btn btn-primary">
-  </form>
-
-  <span class="navbar-text"> Image moderation with
-      <a href="https://sightengine.com/">Sightengine</a>
-  </span>
-</header>
-
-</body>
-</html>
-
 {% include "header.html" %}
 
-{% if user %}
-  <h1>Hello {{ user }}</h1>
-{% else %}
-  <h1>Hello world!</h1>
-{% endif %}
+<h1>
 
-<form action="/feedback" method="post">
-  <label for="name">Name: </label>
-  <input type="text" name="name" id="name">
+<br>
+</h1>
 
-  <label for="email">Email: </label>
-  <input type="email" name="email" id="email">
+<body>
 
-  <input type="submit" value="Send!">
-</form>
+<div>
+<b>Shanghai
+</div>
 
+<p1>
+<br>
+Shanghai is a national historical and cultural city located in the Yangtze River Delta.<br>
+It is China's international economic, financial, trade, shipping, and technology innovation center.<br>
+In Shanghai, you can experience cutting-edge technology facilities, efficient transportation systems,<br>
+appreciation of antique historical sites, and taste of Chinese specialties.
+
+</p1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="ct1" style="color:white;font-size:30px;">Transportation Map in Shanghai</p>
+<img src="static/images/shanghai-subway-map1.jpg" alt="Shanghai Subway" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="ct2" style="color:white;font-size:30px;">Highlights in Shanghai</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="color:white;font-size:26px;">The Bund</p>
+<p style="color:white;font-size:20px;">Located on the Huangpu River in Huangpu District of Shanghai,<br>
+   it is outside Huangpu Beach and is a historical and cultural block in China.<br>
+  It is also the starting point for the old Shanghai concession area and the entire modern city of Shanghai.
+</p>
+<br>
+<br>
+<img src="static/images/the-bund.jpg" alt="The Bund" />
+<img src="static/images/the-bund2.jpg" alt="The Bund" />
+<img src="static/images/the-bund4.jpg" alt="The Bund" />
+<br>
+<br>
+<p style="color:white;font-size:26px;">Tianzifang</p>
+<p style="color:white;font-size:20px;">Before 1998, it was still a street market, and now it has become a gathering place for modern creativity, full of humanistic art.
+</p>
+<br>
+<br>
+<img src="static/images/tianzifang.jpg" alt="Tianzifang" />
+<img src="static/images/tianzifang3.jpg" alt="Tianzifang" />
+<img src="static/images/tianzifang2.jpg" alt="Tianzifang" />
+
+<br>
+<br>
+<p style="color:white;font-size:26px;">Yuyuan</p>
+<p style="color:white;font-size:20px;">Located in the northeast of Shanghai's old city, it is a classical garden in the south of the Yangtze River.<br>
+   It was built in the Jiajing and Wanli years of the Ming Dynasty and covers an area of more than 30 acres.
+</p>
+<br>
+<br>
+<img src="static/images/yuyuan.jpg" alt="Yuyuan" />
+<img src="static/images/yuyuan1.jpg" alt="Yuyuan" />
+<img src="static/images/yuyuan2.jpg" alt="Yuyuan" />
+
+<br>
+<br>
+<p style="color:white;font-size:26px;">Nanjing Road</p>
+<p style="color:white;font-size:20px;">Nanjing Road in Shanghai is the first commercial street to be established after the opening of Shanghai.<br>
+   The intertwining of tradition and modernity adds a different charm to this century-old street.<br>
+     It is a window to Shanghai's opening to the outside world and a paradise for shoppers at home and abroad.
+   </p>
+<br>
+<br>
+<img src="static/images/nanjing-road.jpg" alt="Nanjing Road" />
+<img src="static/images/nanjing-road1.jpg" alt="Nanjing Road" />
+<img src="static/images/nanjing-road2.jpg" alt="Nanjing Road" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="color:white;font-size:36px;">Welcome to Shanghai!</p>
+<br>
+<br>
+<br>
+<br>
 </body>
 
 </html>
+{% include "footer.html" %}

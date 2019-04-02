@@ -1,0 +1,11 @@
+#footer {
+  position: relative;
+  margin-top: -40px;
+  left:0;
+  bottom: 0;
+  width: 100%;
+}
+
+.column{
+  display: inline-block;
+}
