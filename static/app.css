@@ -3,7 +3,7 @@ h1 {
 }
 
 body  {
-    background-image: url("/static/images/background1.jpg"),url("/static/images/background2.jpg");background-size: 1300px * 700px, background-size: 1300px * 2800px; background-repeat: no-repeat; background-repeat: no-repeat;
+    background-image: url("/static/images/background1.jpg");background-size: cover; background-repeat: no-repeat; margin:0; background-attachment: fixed; background-color: black;
     font-family: Ms serif, sans-serif; color:white; font-size: 20px; text-align: center;
 }
 
